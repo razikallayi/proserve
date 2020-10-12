@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 import Layout from "../common/layout.js";
 import Hero from "../hero/hero.js";
 import Nav from "../nav/nav.js";
@@ -10,10 +10,10 @@ import Footer from "../footer/footer.js";
 export default () => (
   <Layout>
     <Hero />
-    <Nav />
+    {/* <Nav />
     <About />
     <Features />
     <Contact />
-    <Footer />
+    <Footer /> */}
   </Layout>
-)
+);
